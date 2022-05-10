@@ -1,0 +1,11 @@
+to run project: php artisan serve
+php artisan make:migration create_listing_table
+php artisan migrate
+php artisan db:seed
+php artisan make:model Customers
+php artisan make:factory CustomersFactory
+
+php artisan make:controller CustomerController
+php artisan make:constroller Api\\CustomerController --model=Post
+dd()
+ddd()
